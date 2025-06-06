@@ -1,4 +1,4 @@
-# 🎓 University Study Resources Repository
+# 🎓 WITS COMS Study Resources Repository
 
 A comprehensive collection of lectures, study materials, and educational resources organized by year and module. This repository serves as a collaborative learning resource for current and future students taking COMS at WITS.
 
