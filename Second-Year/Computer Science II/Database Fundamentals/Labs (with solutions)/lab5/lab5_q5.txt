@@ -1,0 +1,1 @@
+select * from course inner join registration on course.course_code = registration.course_code;

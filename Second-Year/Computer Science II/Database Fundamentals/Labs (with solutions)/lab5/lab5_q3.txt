@@ -1,0 +1,1 @@
+alter table registration add primary key (registration_no), add foreign key (course_code) references course(course_code), add foreign key (student_no) references student(student_no);

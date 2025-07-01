@@ -1,0 +1,1 @@
+insert into students values ("76", "Vukosi", NULL, '2021-09-09', NULL);

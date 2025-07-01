@@ -1,0 +1,1 @@
+insert into course values("COMS2004", "Introduction to Computing", "B", "Refilwe");

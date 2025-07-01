@@ -1,0 +1,1 @@
+alter table student add primary key(student_no);

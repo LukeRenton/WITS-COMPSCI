@@ -1,0 +1,1 @@
+create table students(student_num CHAR(3), student_lname VARCHAR(25), student_fname VARCHAR(25), enrollment_date DATE, age Integer);

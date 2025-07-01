@@ -1,0 +1,1 @@
+select student_no from registration where course_code = 'COMS2002' and registration_date in ('2018-04-9', '2018-04-10');

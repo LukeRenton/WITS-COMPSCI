@@ -1,0 +1,1 @@
+insert into students values ("101", "Mbatha", "Thando", '2019-05-23', 18), ("102", "Nkosi", "Sibongile", '2018-08-13', 20), ("103", "Zulu", "Mandla", '2017-11-09', 19), ("104", "Davis", "Charles", '2020-03-17', 17), ("105", "Smith", "John", '2018-12-05', 21), ("106", "Khoza", "Lebo", '2018-08-13', 18);

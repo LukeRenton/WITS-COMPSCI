@@ -1,0 +1,1 @@
+select * from registration left outer join course on course.course_code = registration.course_code union select * from registration right outer join course on course.course_code = registration.course_code;

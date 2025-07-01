@@ -1,0 +1,1 @@
+alter table customer change customer_fname first_name varchar(25);
