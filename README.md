@@ -12,6 +12,10 @@ This repository contains study materials and resources for the Computer Science,
 - Share helpful learning resources
 - Build a comprehensive study library
 
+## 🌟 Support the Project
+
+If you’ve found this repository helpful, **please consider giving it a ⭐ star**! It’s a simple way to show appreciation and help keep the project active and maintained.
+
 ## 🤝 Contributing
 
 **We welcome contributions from all students, past and present!** Help us build a comprehensive study resource by sharing your materials.
@@ -29,7 +33,6 @@ This repository contains study materials and resources for the Computer Science,
    git commit -m "Add Machine Learning lecture notes and resources from x y and z"
    ```
 5. **Push to your fork** and create a pull request
-6. **Give us a ⭐ star** - it's all we ask for!
 
 ### What to Contribute
 
@@ -155,8 +158,6 @@ Module Name/
 
 3. **Follow the contribution guidelines** above
 
-4. **Don't forget to ⭐ star the repo!**
-
 ### For Students Looking for Resources
 
 1. **Clone the repository:**
@@ -192,12 +193,14 @@ If you have questions about:
 
 ## 🏆 Contributors
 
-Thanks to all the students who have contributed to building this resource! Your efforts help create a better learning environment for everyone.
+Thanks to all the students who have contributed to building this resource and making this project possible:
 
-**⭐ Don't forget to star this repository if you find it helpful!**
+<a href="https://github.com/LukeRenton/WITS-COMPSCI/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=LukeRenton/WITS-COMPSCI" />
+</a>
 
 ---
 
-**Happy studying! 📖**
+**Happy studying!**
 
 *Standing on the shoudlers of giants*
