@@ -1,6 +1,6 @@
-=================================================================
-🧠 MSCLUSTER USAGE — GENERAL RESEARCH QUICK REFERENCE
-=================================================================
+
+#=========== 🧠 MSCLUSTER USAGE — GENERAL RESEARCH QUICK REFERENCE
+=============
 
 Cluster Login:
     SSH Address  : 146.141.21.100
@@ -12,7 +12,7 @@ Environment Dir: ~/my_project/env/
 Results Dir    : ~/my_project/results/
 
 =================================================================
-1. CONNECTING TO THE CLUSTER (VS CODE SSH)
+## 1. CONNECTING TO THE CLUSTER (VS CODE SSH)
 -----------------------------------------------------------------
 ~/.ssh/config entry:
     Host mscluster
@@ -25,7 +25,7 @@ In VS Code:
     - Wait for the "SSH: mscluster" indicator (bottom-left)
 
 =================================================================
-2. PYTHON ENVIRONMENT SETUP
+## 2. PYTHON ENVIRONMENT SETUP
 -----------------------------------------------------------------
 Option A: Virtualenv (venv)
     cd ~/my_project/
@@ -43,7 +43,7 @@ Option B: Miniconda (Recommended)
     conda install numpy matplotlib dill pytorch -c conda-forge -c pytorch
 
 =================================================================
-3. RUNNING CODE ON THE CLUSTER
+## 3. RUNNING CODE ON THE CLUSTER
 -----------------------------------------------------------------
 Activate environment and run:
     source ~/my_project/env/bin/activate
@@ -54,12 +54,12 @@ Output will be saved to:
     ~/my_project/results/
 
 =================================================================
-4. BACKUP TO LOCAL MACHINE
+## 4. BACKUP TO LOCAL MACHINE
 -----------------------------------------------------------------
     scp -r <user>@146.141.21.100:~/my_project/ ./local_backup/
 
 =================================================================
-5. SAFE JOB EXECUTION
+## 5. SAFE JOB EXECUTION
 -----------------------------------------------------------------
 ❌ Do NOT just run: `python3 script.py`  
 → It will stop if your session drops.
@@ -79,13 +79,16 @@ C. SLURM:
     sbatch my_job.sh
 
 =================================================================
-6. MONITORING TOOLS
+## 6. MONITORING TOOLS
 -----------------------------------------------------------------
 Check job status:
     squeue -u <your-username>
 
 Cancel all jobs:
     scancel -u <your-username>
+
+Cancel specific jobs
+    scancel <job_id>
 
 CPU usage:
     top
@@ -98,7 +101,7 @@ See current node:
     hostname
 
 =================================================================
-7. SLURM PARTITIONS (CPU/GPU OPTIONS)
+## 7. SLURM PARTITIONS (CPU/GPU OPTIONS)
 -----------------------------------------------------------------
 | Partition   | CPUs/Node | Total Nodes | Special     |
 |-------------|-----------|--------------|-------------|
@@ -117,7 +120,7 @@ NOTE:
 • Adjust time with `-t HH:MM:SS` or `-t DD-HH:MM:SS`
 
 =================================================================
-8. JOB SCRIPTS (SLURM)
+## 8. JOB SCRIPTS (SLURM)
 -----------------------------------------------------------------
 Example SLURM job script (job.sh):
 
@@ -137,7 +140,7 @@ Submit job:
     sbatch job.sh
 
 =================================================================
-9. HELPFUL COMMANDS
+## 9. HELPFUL COMMANDS
 -----------------------------------------------------------------
 Check memory:
     free -h
@@ -152,7 +155,7 @@ Job history:
     sacct -u <your-username>
 
 =================================================================
-10. TROUBLESHOOTING
+## 10. TROUBLESHOOTING
 -----------------------------------------------------------------
 • If a job is stuck in "PD (Pending)", check reasons with:
     squeue -u <your-username> -l
