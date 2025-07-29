@@ -1,12 +1,15 @@
 
 # 🧠 MSCLUSTER USAGE — GENERAL RESEARCH QUICK REFERENCE
-=============
-
+================================================================
+## General
+----------------------------------------------------------------
+The MSCluster is a high-performance computing (HPC) environment provided by the University. It is designed to allow researchers to run large-scale computational jobs remotely using shared compute nodes. Access is granted via SSH, and jobs are managed using the SLURM workload manager. Users submit jobs to specific partitions depending on their resource needs—CPU-only (stampede, bigbatch) or GPU-enabled (biggpu). The cluster ensures fair resource allocation while allowing for powerful parallel computation across many CPUs or GPUs.
+================================================================
 Cluster Login:
-    SSH Address  : 146.141.21.100
+    SSH Address  : <your-cluster-address>
     Username     : <your-username>
     Password     : <default-password>
-
+The above info is shared upon request or once you have been automatically granted access
 Project Dir    : ~/my_project/
 Environment Dir: ~/my_project/env/
 Results Dir    : ~/my_project/results/
@@ -16,7 +19,7 @@ Results Dir    : ~/my_project/results/
 -----------------------------------------------------------------
 ~/.ssh/config entry:
     Host mscluster
-        HostName 146.141.21.100
+        HostName <your-cluster-address>
         User <your-username>
         IdentityFile ~/.ssh/id_rsa
 
@@ -56,7 +59,7 @@ Output will be saved to:
 =================================================================
 ## 4. BACKUP TO LOCAL MACHINE
 -----------------------------------------------------------------
-    scp -r <user>@146.141.21.100:~/my_project/ ./local_backup/
+    scp -r <user>@<your-cluster-address>:~/my_project/ ./local_backup/
 
 =================================================================
 ## 5. SAFE JOB EXECUTION
