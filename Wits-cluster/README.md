@@ -1,5 +1,5 @@
 
-#=========== 🧠 MSCLUSTER USAGE — GENERAL RESEARCH QUICK REFERENCE
+# 🧠 MSCLUSTER USAGE — GENERAL RESEARCH QUICK REFERENCE
 =============
 
 Cluster Login:
